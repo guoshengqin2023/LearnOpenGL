@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\learn\ol\LearnOpenGL\src\4.advanced_opengl\5.1.framebuffers\framebuffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\learn\ol\LearnOpenGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\learn\ol\LearnOpenGL\src\4.advanced_opengl\5.1.framebuffers\5.1.framebuffers.fs" />
+    <None Include="D:\learn\ol\LearnOpenGL\src\4.advanced_opengl\5.1.framebuffers\5.1.framebuffers.vs" />
+    <None Include="D:\learn\ol\LearnOpenGL\src\4.advanced_opengl\5.1.framebuffers\5.1.framebuffers_screen.fs" />
+    <None Include="D:\learn\ol\LearnOpenGL\src\4.advanced_opengl\5.1.framebuffers\5.1.framebuffers_screen.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{01F53FCB-5FF6-30C8-BB76-992363517F03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

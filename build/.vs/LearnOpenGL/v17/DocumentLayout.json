@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\learn\\ol\\LearnOpenGL\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BFC5D39-A5D6-39EB-B8D5-40D04A94A8CA}|1.getting_started__1.1.hello_window.vcxproj|D:\\learn\\ol\\LearnOpenGL\\src\\1.getting_started\\1.1.hello_window\\hello_window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "hello_window.cpp",
+              "DocumentMoniker": "D:\\learn\\ol\\LearnOpenGL\\src\\1.getting_started\\1.1.hello_window\\hello_window.cpp",
+              "RelativeDocumentMoniker": "..\\src\\1.getting_started\\1.1.hello_window\\hello_window.cpp",
+              "ToolTip": "D:\\learn\\ol\\LearnOpenGL\\src\\1.getting_started\\1.1.hello_window\\hello_window.cpp",
+              "RelativeToolTip": "..\\src\\1.getting_started\\1.1.hello_window\\hello_window.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-27T03:40:49.21Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
