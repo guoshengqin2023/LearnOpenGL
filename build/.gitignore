@@ -1,0 +1,43 @@
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+# Visual Studio 文件
+.vs/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.sln.ide
+
+# 编译生成的文件
+[Bb]in/
+[Rr]elease/
+[Dd]ebug/
+[Oo]bj/
+.cmake/
+
+# C++ 中间文件
+*.o
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.log
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*.dSYM/
+
+# 依赖文件
+*.lib
+*.dll
+*.exe
+*.app
+
+# 其他
+*.cache
+*.vsix
+*.pdb
