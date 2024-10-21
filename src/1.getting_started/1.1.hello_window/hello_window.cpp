@@ -21,6 +21,7 @@ int main()
     //opengl 相关操作
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+    //使用core
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 
@@ -32,7 +33,7 @@ int main()
 
     // glfw window creation   glfwCreateWindow 函数需要窗口宽度和高度分别作为其前两个参数。第三个参数允许我们为窗口创建一个名称；现在我们将其称为"LearnOpenGL"但您可以随意命名。我们可以忽略最后两个参数。该函数返回一个 GLFWwindow 对象
     // --------------------
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Hello Window", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -73,7 +74,7 @@ int main()
         //glfwPollEvents 函数检查是否触发了任何事件（如键盘输入或鼠标移动事件），更新窗口状态，并调用相应的函数（我们可以通过回调方法注册）。
         glfwPollEvents();
     }
-        system("pause");
+        //system("pause");
     // glfw: terminate, clearing all previously allocated GLFW resources.  理所有资源并正确退出应用程序
     // ------------------------------------------------------------------
     glfwTerminate();
@@ -98,5 +99,8 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
     // height will be significantly larger than specified on retina displays.
 
     //glViewport的前两个参数设置窗口左下角的位置。第三个和第四个参数设置渲染窗口的宽度和高度（以像素为单位），我们将其设置为等于 GLFW 的窗口大小。
-    glViewport(0, 0, width, height);
+    //glViewport(0, 0, width, height);
+    glViewport(0, 0, 200, 200);
+    std::cout << "framebuffer_size_callback" << std::endl;
+  
 }

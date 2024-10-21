@@ -4,6 +4,9 @@
     <ClCompile Include="D:\learn\ol\LearnOpenGL\src\1.getting_started\1.1.hello_window\hello_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\learn\ol\LearnOpenGL\CMakeLists.txt" />
