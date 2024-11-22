@@ -18,7 +18,7 @@ int main()
     //初始化GLFW
     glfwInit();
 
-    //opengl 相关操作
+    //opengl 版本相关操作
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     //使用core
@@ -50,7 +50,7 @@ int main()
     // 
     //加载OpenGL函数指针：
 
-   // gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)的目的是从GLFW中获取OpenGL函数的地址并将其加载到GLAD中。
+   //TODO gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)的目的是从GLFW中获取OpenGL函数的地址并将其加载到GLAD中。
      //   这里的glfwGetProcAddress是GLFW提供的一个函数，用于根据函数名返回相应的OpenGL函数指针。
     // ---------------------------------------
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
@@ -97,10 +97,10 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
     // make sure the viewport matches the new window dimensions; note that width and 
     // height will be significantly larger than specified on retina displays.
-
+    
     //glViewport的前两个参数设置窗口左下角的位置。第三个和第四个参数设置渲染窗口的宽度和高度（以像素为单位），我们将其设置为等于 GLFW 的窗口大小。
-    //glViewport(0, 0, width, height);
-    glViewport(0, 0, 200, 200);
+    glViewport(0, 0, width, height);
+    //glViewport(0, 0, 200, 200);
     std::cout << "framebuffer_size_callback" << std::endl;
   
 }

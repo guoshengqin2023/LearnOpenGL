@@ -4,6 +4,9 @@
     <ClCompile Include="D:\learn\ol\LearnOpenGL\src\1.getting_started\2.3.hello_triangle_exercise1\hello_triangle_exercise1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="vao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\learn\ol\LearnOpenGL\CMakeLists.txt" />
